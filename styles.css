@@ -1,0 +1,38 @@
+body {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 100px;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #14213d;
+    color: #e5e5e5;
+    border: 8px solid #fca311;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+    transition: transform .2s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:after {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
